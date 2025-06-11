@@ -1,4 +1,3 @@
-<!-- Container -->
 <div class="container">
   <app-navbar></app-navbar>
 
@@ -8,71 +7,10 @@
 
   <app-projects></app-projects>
 
-  <!-- Customers -->
-  <section class="customers">
-    <h1 class="customers-heading">CUSTOMERS</h1>
-    <div class="customers-content">
-      <div class="customers-card">
-        <img src="./customer1.jpg" alt="Photo of John Smith" />
-        <div class="customers-card-content">
-          <h1>John Smith</h1>
-          <h3>Co-manager associated</h3>
-          <i class="fa-solid fa-quote-left"></i>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Temporibus, illo velit ullam nam deleniti nisi?
-          </p>
-        </div>
-      </div>
-      <div class="customers-card">
-        <img src="./customer2.jpg" alt="Photo of Ann White" />
-        <div class="customers-card-content">
-          <h1>Ann White</h1>
-          <h3>Co-manager associated</h3>
-          <i class="fa-solid fa-quote-left"></i>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Temporibus, illo velit ullam nam deleniti nisi?
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="client section-bottom">
-      <h1>CLIENT</h1>
-      <h3>SAYS</h3>
-    </div>
-  </section>
-  <!-- End of Customers -->
+  <app-customers></app-customers>
 
-  <!-- Contact -->
-  <section class="contact">
-    <div class="contact-content">
-      <div class="contact-left">
-        <h1>Stay tuned and get the latest updates</h1>
-      </div>
-      <div class="contact-right">
-        <input type="email" placeholder="Enter your e-mail address" />
-        <i class="fa-solid fa-paper-plane"></i>
-      </div>
-    </div>
-  </section>
-  <!-- End of Contact -->
+  <app-contact></app-contact>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer-content">
-      <div class="brand brand-footer">
-        <div class="logo1"></div>
-        <div class="logo2"></div>
-        <div class="logo3"></div>
-        <span>ARCHITECTURE</span>
-      </div>
-      <div class="copyright">
-        <p>&copy; All Rights Reserved. Made by Code And Create</p>
-      </div>
-    </div>
-  </footer>
-  <!-- End of Footer -->
-  <!-- End of Container -->
+  <app-footer></app-footer>
   <router-outlet />
 </div>
