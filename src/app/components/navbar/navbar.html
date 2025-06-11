@@ -1,4 +1,4 @@
-<nav class="navbar">
+<nav class="navbar" #navbar [ngClass]="{'change': toggleMenu}">
     <div class="brand navbar-brand">
       <div class="logo1"></div>
       <div class="logo2"></div>
@@ -10,7 +10,7 @@
       <i class="fa-solid fa-magnifying-glass"></i>
     </div>
     <div class="hamburger-menu">
-      <div class="menu-icon">
+      <div class="menu-icon" #menuIcon (click)="onToggleMenu()">
         <div class="line line-1"></div>
         <div class="line line-2"></div>
         <div class="line line-3"></div>
